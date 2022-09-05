@@ -1,0 +1,1 @@
+Resolução do exercício proposto em: https://github.com/felipefo/poo2/tree/master/Padroes_de_Projeto/Cria%C3%A7%C3%A3o/metodo_fabrica/ImagemMetodoFabrica
