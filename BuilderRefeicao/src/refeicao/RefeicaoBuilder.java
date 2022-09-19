@@ -17,7 +17,7 @@ public abstract class RefeicaoBuilder {
         refeicao.setBebida(new Refrigerante(sabor));        
     }   
     
-    public void adicionarBatata(){
+    public void adicionarBatata(String comBatata){
         refeicao.setBatata(new Batata(comBatata));
     }
 }

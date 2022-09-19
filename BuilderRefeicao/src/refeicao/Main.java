@@ -11,7 +11,7 @@ public class Main {
         
         DiretorRefeicao criaRefeicao = new DiretorRefeicao();
         //controi uma refeicao.
-        Refeicao refeicao1 = criaRefeicao.preparaNaoVegetariana("laranja", "suco", "Sem Batata");
-        Refeicao refeicao2 = criaRefeicao.preparaVegetariana("guarana", "refrigerante", "Com Batata");
+        Refeicao refeicao1 = criaRefeicao.preparaNaoVegetariana("laranja", "suco", "sem batata");
+        Refeicao refeicao2 = criaRefeicao.preparaVegetariana("guarana", "refrigerante", "com batata");
     }
 }

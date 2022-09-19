@@ -23,7 +23,7 @@ public class Refeicao {
     public void setBebida(Bebida bebida) {
         this.bebida = bebida;
     }
-    public void getBatata(){
+    public Batata getBatata(){
         return batata;
     }
     public void setBatata(Batata batata){
