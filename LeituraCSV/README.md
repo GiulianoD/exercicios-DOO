@@ -1,4 +1,4 @@
-
+exercício proposto em https://github.com/felipefo/poo2/tree/master/Streams_e_Serializacao/LeituraCSV
 
 Exercício - Nessa atividade você usará classes já criadas para ler um arquivo no formato csv. Esse arquivo contém informações dos clientes: id;cliente;email;data_nascimento;telefone;total_compras. Você carregará essas informações e para cada linha criará um objeto cliente. 
 <br>
