@@ -17,7 +17,7 @@ public class LeCsv {
         Cliente clienteAux;
         in.read(linha)); // pula a primeira linha (cabecalho)
         while (in.read(linha) != -1) {
-            String[] linhas = linha.split(';');
+            String[] linhas = linha.split(";");
             clienteAux = new Cliente();
             clienteAux.setId(linhas[0]);
             clienteAux.setNome(linhas[1]);
