@@ -2,11 +2,19 @@ package leitura;
 
 public class Cliente 
 {
-     private String id;
-     private String nome;
-     private String telefone;
-     private String email;
-     private double totalCompras;
+    private String id;
+    private String nome;
+    private String telefone;
+    private String email;
+    private double totalCompras;
+
+    public Cliente (String id, String nome, String telefone, String email, double totalCompras){
+        this.id = id;
+        this.nome = nome;
+        this.telefone = telefone;
+        this.email = email;
+        this.totalCompras = totalCompras;
+    }
 
     public String getId() {
         return id;
