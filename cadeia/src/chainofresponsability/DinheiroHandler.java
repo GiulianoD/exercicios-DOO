@@ -2,19 +2,19 @@ package chainofresponsability;
 
 import javax.swing.JOptionPane;
 
-public class ChequeHandler  extends AbstractPagamentoHandler {
-    public static final int CHEQUE =3;
+public class DinheiroHandler  extends AbstractPagamentoHandler {
+    public static final int DINHEIRO =4;
     @Override
     protected int handlePagamento(int valor) {
         int valorRestante = super.perguntaPagamento("Qual o valor para o "
-                + "pagamento com Cheque?", valor);
-        JOptionPane.showMessageDialog(null, "Cheque sacado. Valor restante:" 
+                + "pagamento com Dinheiro?", valor);
+        JOptionPane.showMessageDialog(null, "Pago no dinheiro. Valor restante:" 
                 + valorRestante);
         return valorRestante;
     }
 
     @Override
     protected int getTipoPagamento() {
-        return CHEQUE;
+        return DINHEIRO;
     }
 }
